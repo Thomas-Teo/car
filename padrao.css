@@ -1,0 +1,76 @@
+html,
+body,
+h2,
+p,
+a,
+ul{
+   margin: 0;
+   padding: 0;
+}
+
+a,
+ul,
+li {
+   text-decoration: none;
+   color: inherit;
+   list-style-type: none;
+}
+
+/* HEADER */
+.header {
+   display: flex;
+   max-height: 240px;
+   background-color: #000;
+   justify-content: space-around;
+}
+
+.atendimento {
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.logo>img {
+   height: 240px;
+}
+
+.contato {
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.navPaginas {
+   display: flex;
+   padding: 0 200px 0 200px;
+   background-color: #DEA659;
+   height: 70px;
+   justify-content: space-around;
+   align-items: center;
+}
+
+/* HEADER */
+
+/* FOOTER */
+
+footer {
+   background-color: #E3C79F;
+}
+
+.linksPolitica>ul {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 50px;
+}
+
+.direitos {
+   display: flex;
+   justify-content: center;
+}
+
+/* FOOTER */
