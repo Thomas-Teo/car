@@ -1,3 +1,4 @@
+`theme: Hacker`
 # Pagina de Automoveis
 ### Glossário
 * [Clonar repositório](#Clonar-repositório)
