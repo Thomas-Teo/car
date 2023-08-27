@@ -1,9 +1,11 @@
 # Pagina de Automoveis
 ### Glossário
-[Clonar repositório](#Clonar-repositório)
-[Config global](#Config-global)
-[Fazer commit](#Fazer-commit)
-[Visualizando o Histórico de Commits](#visualizando-o-histórico-de-commits)
+* [Clonar repositório](#Clonar-repositório)
+* [Config global](#Config-global)
+* [Fazer commit](#Fazer-commit)
+* [Visualizando o Histórico de Commits](#visualizando-o-histórico-de-commits)
+* [Histórico de um autor](#histórico-de-um-autor)
+* [Histórico Baseado em uma Mensagem](#histórico-baseado-em-uma-mensagem)
 ## Clonar repositório
 
 1. Abrir o terminal no vs code
@@ -28,4 +30,21 @@
 
 ## Visualizando o Histórico de Commits
 
-1. usar **"git log"**
+* usar **"git log"**
+
+### Histórico de um autor
+
+* usar **"$ git log --autor=nome-autor"**
+
+### Histórico Baseado em uma Mensagem
+
+* usar **"$ git log --grep produtos"**
+ 
+Com esse comando teremos o histórico de commits em que a mensagem do commit possua a palavra “produtos”.
+O que passamos pode ser uma expressão regular, e podemos passar mais de uma:
+
+* _procurar por "produtos" OU "usuarios"_
+**"git log --grep produtos --grep usuarios"**
+
+* _procurar por "produtos" E "usuarios"_
+**"git log --grep produtos --and --grep usuarios"**
