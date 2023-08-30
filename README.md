@@ -35,11 +35,11 @@
 
 ### Histórico de um autor
 
-* usar **"$ git log --autor=nome-autor"**
+* usar **"git log --autor=nome-autor"**
 
 ### Histórico Baseado em uma Mensagem
 
-* usar **"$ git log --grep produtos"**
+* usar **"git log --grep produtos"**
  
 Com esse comando teremos o histórico de commits em que a mensagem do commit possua a palavra “produtos”.
 O que passamos pode ser uma expressão regular, e podemos passar mais de uma:
