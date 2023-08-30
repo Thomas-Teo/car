@@ -16,6 +16,10 @@ li {
    list-style-type: none;
 }
 
+main {
+   min-height: 750px;
+}
+
 /* HEADER */
 .header {
    display: flex;
