@@ -20,7 +20,8 @@
 2. usar **"git config --global user.email "seuemail@gmail.com" "** assim configura o email
 3. usar **"git config --global user.name "nome do usuario do git" "** assim configura o usuario
 4. usar **"git checkout develop"** assim troca para a branch develop
-5. usar a branch _develop_ para não subir o codigo direto para main e não dar erro 
+5. usar a branch _develop_ para não subir o codigo direto para main e não dar erro
+
 ## Fazer commit
 
 1. usar **"git status"** para ver os arquivos alterados ou criados
@@ -28,6 +29,10 @@
 3. usar **"git status"** para conferir se todos foram adicionados
 4. usar **"git commit -m "mensagem descrevendo o commit"** assim você cria o commit com uma breve descição
 5. usar **"git push origin develop"** para mandar o codigo para o github
+
+## Atualizar seu repositorio
+
+1. usar **"git pull origin main"**, é usado main caso você vá utilizar o que esta em produção
 
 ## Visualizando o Histórico de Commits
 
