@@ -1,0 +1,29 @@
+.titulo{
+text-align: center;
+font-size:200%;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.sobre{
+margin: 0 0 10px;
+}
+.sobre{
+font-size:large;
+display: flex;
+margin-left: 28px ;
+margin-right: 28px;
+margin-top: 28px;
+
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #DEA659);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
+}
+
