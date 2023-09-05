@@ -3,7 +3,8 @@ body,
 h2,
 p,
 a,
-ul{
+ul,
+section {
    margin: 0;
    padding: 0;
 }
@@ -17,8 +18,20 @@ li {
 }
 
 main {
-   min-height: 750px;
+   background-image: url(../imagens/fundo.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100px;
 }
+
+/* BODY */
+
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+/* BODY */
 
 /* HEADER */
 .header {
@@ -36,17 +49,15 @@ main {
    justify-content: center;
 }
 
-.atendimento>div{
+.atendimento>div {
    display: flex;
    align-items: center;
 }
 
-.contato>div{
+.contato>div {
    display: flex;
    align-items: center;
 }
-
-
 
 .logo>img {
    height: 240px;
@@ -71,55 +82,28 @@ main {
 
 /* HEADER */
 
+/* SECTION */
+
+.sectionEsquerda,
+.sectionDireita {
+   width: 20%;
+}
+
+.sectionCentral {
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+   width: 60%;
+}
+
+/* SECTION */
+
 /* MAIN */
 
-
-.veiculos img {
-   margin: auto;
-   height: 100%;
-   width: 100%;
-
-}
-
-
-.veiculos {
-   width: 940px;
-   margin: 0 auto;
-   padding: 50px 0;
-}
-
-.veiculos li {
-   display: inline-block;
-   text-align: center;
-   width: 30%;
-   vertical-align: top;
-   margin: 0 1.5%;
-   border-width: 2px;
-   border-style: solid;
-   box-sizing: border-box;
-   border-color: #000000;
-   border-radius: 15px;
-}
-
-.veiculos h2 {
-   font-size: 30px;
-   font-weight: bold;
-}
-
-.veiculos li:hover {
-   border-color: #C78C19;
-}
-
-.veiculos li:active {
-   border-color: #088C19;
-}
-.descricao {
-   font-size: 18px;
-}
-.preco {
-   font-size: 22px;
-   font-weight: bold;
-   margin-top: 10px;
+main {
+   min-height: 750px;
+   display: flex;
+   flex-direction: row;
 }
 
 /* MAIN */
@@ -127,7 +111,7 @@ main {
 /* FOOTER */
 
 footer {
-   background-color: #E3C79F;
+   background-color: #DEA659;
 }
 
 .linksPolitica>ul {
@@ -143,7 +127,3 @@ footer {
 }
 
 /* FOOTER */
-
-
-
-

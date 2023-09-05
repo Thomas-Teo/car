@@ -1,34 +1,20 @@
-main {
-   display: flex;
-   background-image: url(../imagens/front.jpeg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   align-items: center;
-}
-
 .conteudo {
    max-height: 650px;
-}
-
-.ad {
-   width: 460px;
 }
 
 form {
    width: 403px;
    padding: 50px 75px 50px 75px;
-   border: 1px solid;
+   box-shadow: inset 1px 1px 8px 1px #000;
    border-radius: 32px;
-   backdrop-filter: blur(10px);
+   background-color: #fff;
 }
-
 
 label {
    font-size: 20px;
    font-weight: bold;
    margin-top: 10px;
 }
-
 
 input[type="text"] {
    width: 100%;
@@ -38,7 +24,6 @@ input[type="text"] {
    border: 1px solid #ccc;
    border-radius: 14px;
 }
-
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -69,10 +54,6 @@ label[for="W"] {
    margin-left: 5px;
 }
 
-footer {
-   background-color: #E3C79F;
-}
-
 .linksPolitica>ul {
    display: flex;
    justify-content: space-evenly;
@@ -97,4 +78,3 @@ footer {
 .formulario>div {
    margin-bottom: 10px;
 }
-
