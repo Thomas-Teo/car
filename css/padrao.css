@@ -87,6 +87,7 @@ body {
 .sectionEsquerda,
 .sectionDireita {
    width: 20%;
+   height: 100%;
 }
 
 .sectionCentral {
