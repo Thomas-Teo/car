@@ -1,3 +1,6 @@
+
+/* SECTION */
+
 .sectionEsquerda {
    display: flex;
    flex-direction: column;
@@ -19,6 +22,8 @@
 .filtro>div>div {
    margin-bottom: 10px;
 }
+
+/* SECTION */
 
 .veiculos img {
    margin: 0;
